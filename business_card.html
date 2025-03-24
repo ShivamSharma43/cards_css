@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background: rgb(238,174,202);
+            background: linear-gradient(351deg, rgba(238,174,202,1) 0%, rgba(6,101,134,1) 0%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card{
+            width: 800px;
+            height: 400px;
+            background: rgb(63,94,251);
+            background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(76,3,99,1) 0%);
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .card img{
+            height: 100%;
+            width: 50%;
+        }
+
+        .textbox{
+            width: auto;
+            height: 100%;
+            
+        }
+
+        .textbox h1{
+            padding-top: 70px;
+            padding-left: 30px;
+            padding-right: 30px;
+            text-align: center;
+            color: white;
+
+        }
+
+        .textbox p{
+            padding-top: 50px;
+            padding-left: 30px;
+            padding-right: 30px;
+            text-align: left;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .commentbox{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 20px;
+        }
+        .commentbox h2{
+            padding-top: 30px;
+            padding-left: 30px;
+            color: white;
+        }
+        .commentbox p{
+            padding-top: 0px;
+            font-size: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="textbox">
+                <h1>Get insights that help your business grow. </h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus rerum sequi atque quae accusantium dolorem, labore quisquam modi! Numquam, perspiciatis?</p>
+
+                <div class="commentbox">
+                    <div class="comments">
+                        <h2>10K+</h2>
+                        <p>comments</p>
+                    </div>
+                    <div class="paid">
+                        <h2>214</h2>
+                        <p>Paid User</p>
+                    </div>
+                    <div class="view">
+                        <h2>12M+</h2>
+                        <p>views</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <img src="icon.jpg" alt="">
+
+            
+        </div>
+    </div>
+</body>
+</html>
